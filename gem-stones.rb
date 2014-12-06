@@ -1,3 +1,5 @@
+#https://www.hackerrank.com/challenges/gem-stones
+
 puts "How many rocks?"
 rocks = gets.chomp.to_i
 rocks.times do
