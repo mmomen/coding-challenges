@@ -1,0 +1,66 @@
+div {
+    padding: 15px;
+}
+
+/* Header */
+.header {
+    background: #FF9C56;
+}
+
+.sidebar {
+  background: #F6BD62;
+  float: left;
+  width: 15%;
+}
+
+.content {
+  background: #507088;
+}
+
+/* Footer */
+.footer {
+  background: #B7CE3F;
+  clear: both;
+  /*float: left;
+  width: 20%;*/
+}
+
+.logo {
+  float: left;
+  width: 15%;
+  background: #EB6481;
+}
+
+.navigation {
+  background: #D76A50;
+}
+
+.widget {
+  float:left;
+  margin: 20;
+  background: #D76A50;
+  width: 150;
+  height: 150;
+}
+
+.gadget {
+  float: left;
+  margin: 20;
+  background: #EB6481;
+  width: 150;
+  height: 150;
+  border-radius: 25px;
+}
+
+.blue {
+  background: blue;
+}
+
+.sub-widget {
+  padding: 0;
+  background: white;
+}
+
+.clear {
+  clear: both;
+}
