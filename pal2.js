@@ -7,9 +7,9 @@
 
 var palCheck = function(str) {
   var arr = str.split("");
-  var len = arr.length;
+  var len = arr.length / 2; // check only once (full length will cause it to check twice, up and down)
   var lastIndex = arr.length - 1;
-  for (i = 0; i < len / 2 ; i++) {
+  for (i = 0; i < len; i++) {
     if (arr[i] !== arr[lastIndex]) {
       return false;
     }
@@ -17,5 +17,3 @@ var palCheck = function(str) {
   }
   return true;
 };
-
-console.log(palCheck('noooon'));
